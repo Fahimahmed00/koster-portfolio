@@ -1,16 +1,20 @@
 body{
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 5px 100px;
+    box-shadow: 20px 10px 60px 10px rgba(138, 123, 123, 0.351);
+    
 }
 h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
 }
-p{font-size: medium;}
+
 .flexible-container{
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 .orange-n{
     color: orange;
@@ -45,25 +49,27 @@ p{font-size: medium;}
     margin: 30px;
     box-shadow:10px 15px 15px 10px rgba(90, 81, 81, 0.703);
     padding-left: 15px;
-    border-radius: 20px;
      
 } 
 .experience{
     background-image: url(image/exp-bg.png);
     background-repeat: no-repeat;
+    margin-top: 20px;
+    
 }
 #beginner{
     border-left: 7px solid;
-    border-image: linear-gradiant(blue,cyan);
+    border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
+    border-radius:10px ;
 }
 #web-ex{
     border-left: 7px solid;
-    border-image:inear-gradiant(blue,cyan) ;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30; ;
     border-image-slice: 1;
+    border-radius:10px ;
 }
 footer{
     text-align: center;
-    text-emphasis-color: rgb(58, 17, 17)
-    ;
+    text-emphasis-color: rgb(58, 17, 17);
 }
